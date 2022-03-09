@@ -25,7 +25,6 @@ body{
     align-items: center;
     justify-content: center;
     #survey-form{
-        border: solid rgb(0, 255, 0) 1px;
         width: 60%;
         background:#1b1b32cc;
         padding: 30px;
@@ -71,20 +70,20 @@ body{
         }
 
     }
+    @media screen and (max-width:835px) {
+       
+          body{
+              min-height: 100vh;
+          }
+          .header{
+              
+              .text-center{
+                  font-size: 1em;
+      
+              }
+          }
+          
+        }
+    
 
 }
-@media screen and (max-width:831) {
-    .container{
-      body{
-          min-height: 100vh;
-      }
-      .header{
-          
-          .text-center{
-              font-size: 1em;
-  
-          }
-      }
-      
-    }
-  }

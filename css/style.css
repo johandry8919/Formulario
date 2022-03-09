@@ -35,7 +35,6 @@ body {
 }
 
 .container #survey-form {
-  border: solid lime 1px;
   width: 60%;
   background: #1b1b32cc;
   padding: 30px;
@@ -99,7 +98,7 @@ body {
           box-sizing: border-box;
 }
 
-@media screen and (max-width: 831) {
+@media screen and (max-width: 835px) {
   .container body {
     min-height: 100vh;
   }
