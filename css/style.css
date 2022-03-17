@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,9 @@ body {
   line-height: 1.4;
   color: #f3f3f3;
   margin: 0;
+  background-image: url("/img/formulario-de-inscripción-para-adoptar-al-niño-en-mofa-azul-la-opinión-superior-del-fondo-arriba-el-top-tabla-ve-falso-144442209.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -37,8 +41,9 @@ body {
   text-align: center;
 }
 
-.container .header .text-center {
+.container .header .textcenter {
   font-size: 2em;
+  color: #c71818;
 }
 
 .container #survey-form {
@@ -93,7 +98,6 @@ body {
   height: 2.375rem;
   padding: 0.375rem 0.75rem;
   color: #495057;
-  background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -109,8 +113,9 @@ body {
   .container body {
     min-height: 100vh;
   }
-  .container .header .text-center {
+  .container .header .textcenter {
     font-size: 1em;
+    color: #fff;
   }
 }
 /*# sourceMappingURL=style.css.map */
